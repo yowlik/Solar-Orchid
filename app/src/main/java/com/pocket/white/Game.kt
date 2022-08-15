@@ -28,7 +28,7 @@ class Game : AppCompatActivity() {
         binding.b1.setOnClickListener {
             val i2:String ="1"
             val i=roll.random()
-            binding.pl.setImageResource(R.drawable.ball)
+            binding.pl.setImageResource(R.drawable.snake)
             check(i,binding.en)
             if(i2==i){
                 scr++
@@ -39,7 +39,7 @@ class Game : AppCompatActivity() {
         binding.b2.setOnClickListener {
             val i2:String="2"
             val i=roll.random()
-            binding.pl.setImageResource(R.drawable.ball1)
+            binding.pl.setImageResource(R.drawable.scrop)
             check(i,binding.en)
             if(i2==i){
                 scr++
@@ -48,7 +48,7 @@ class Game : AppCompatActivity() {
         }
         binding.b3.setOnClickListener {
             val i2:String="3"
-            binding.pl.setImageResource(R.drawable.ball2)
+            binding.pl.setImageResource(R.drawable.relic)
             val i=roll.random()
             check(i,binding.en)
             if(i2==i){
@@ -63,12 +63,13 @@ class Game : AppCompatActivity() {
 
     fun check(i:String,im: ImageView) {
         if (i == "1") {
-            im.setImageResource(R.drawable.ball)
+            im.setImageResource(R.drawable.snake)
         } else if (i == "2") {
-            im.setImageResource(R.drawable.ball1)
+            im.setImageResource(R.drawable.scrop)
 
         } else {
-            im.setImageResource(R.drawable.ball2)
+            im.setImageResource(R.drawable.relic)
         }
     }
+
 }

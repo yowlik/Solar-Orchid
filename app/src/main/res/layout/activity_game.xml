@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fontre"
+    android:background="@drawable/back"
     tools:context=".white.Game">
 
 
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your score : "
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="28dp"
             android:fontFamily="@font/font"/>
         <TextView
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="28dp"/>
 
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:id="@+id/en"
         android:layout_width="240dp"
         android:layout_height="240dp"
-        android:src="@drawable/ball"
+        android:src="@drawable/snake"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -52,7 +52,7 @@
         android:id="@+id/pl"
         android:layout_width="240dp"
         android:layout_height="240dp"
-        android:src="@drawable/ball"
+        android:src="@drawable/snake"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -76,19 +76,19 @@
             android:id="@+id/b1"
             android:layout_width="120dp"
             android:layout_height="100dp"
-            android:src="@drawable/ball" />
+            android:src="@drawable/snake" />
 
         <ImageView
             android:id="@+id/b2"
             android:layout_width="120dp"
             android:layout_height="100dp"
-            android:src="@drawable/ball1" />
+            android:src="@drawable/scrop" />
 
         <ImageView
             android:id="@+id/b3"
             android:layout_width="120dp"
             android:layout_height="100dp"
-            android:src="@drawable/ball2" />
+            android:src="@drawable/relic" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

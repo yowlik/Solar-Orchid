@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/back"
     tools:context=".black.MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -16,6 +16,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_url="https://assets3.lottiefiles.com/private_files/lf30_kd6vmszk.json"/>
+        app:lottie_url="https://assets3.lottiefiles.com/private_files/lf30_zdgnruqe.json"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
